@@ -9,3 +9,13 @@ id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
 8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
 9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
 10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+11,Desert Steps,Saffron Sky,afrobeat,joyful,0.85,112,0.90,0.92,0.25
+12,Quiet Strings,Cedar Quartet,classical,calm,0.18,64,0.45,0.20,0.98
+13,Blue Porch,June River,folk,sad,0.30,84,0.22,0.38,0.94
+14,Warehouse Dawn,Static Motion,techno,intense,0.96,138,0.55,0.94,0.02
+15,Golden Coast,Sol Harbor,reggae,relaxed,0.57,96,0.87,0.81,0.45
+16,City Verse,North Avenue,hip hop,confident,0.80,100,0.68,0.86,0.12
+17,Last Train Home,Velvet Signal,rnb,sad,0.46,88,0.25,0.64,0.52
+18,Open Highway,Prairie Moon,country,hopeful,0.62,108,0.76,0.63,0.72
+19,Afterglow Floor,Coastline Circuit,house,euphoric,0.88,128,0.86,0.96,0.04
+20,Electric Tears,Glass Current,hyperpop,sad,0.90,156,0.20,0.84,0.03
