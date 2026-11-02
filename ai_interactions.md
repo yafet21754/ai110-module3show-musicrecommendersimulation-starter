@@ -1,43 +1,17 @@
-# AI Interactions Log
+# AI Assistance Record
 
-> **Stretch features only.** Only fill in the sections that apply to stretch features you attempted. If you did not attempt a stretch feature, leave its section blank or delete it. This file is not required for the core project.
+## Agentic Workflow
 
----
+The student supplied the assignment instructions and repository, then asked: “yes build it” with the GitHub repository link. ChatGPT inspected the starter, implemented the project, generated ten synthetic songs, ran the CLI for five profiles and a weight experiment, and prepared documentation and automated checks.
 
-## Agentic Workflow (SF8)
+Files changed: `src/recommender.py`, `src/main.py`, `src/__init__.py`, `data/songs.csv`, `tests/test_recommender.py`, `README.md`, `model_card.md`, `requirements.txt`, and this log.
 
-> Document your experience using an AI agent (e.g., Cursor Agent, Claude, Copilot) to make multi-step changes autonomously.
+The implementation keeps both starter interfaces and shares one scoring rule. It fixes the package import for `python -m src.main`. The experiment halves genre weight and doubles energy weight without changing the baseline.
 
-**What task did you give the agent?**
+## Verification and Human Review
 
-<!-- Describe the goal you asked the agent to accomplish -->
+The agent checked actual terminal output, score calculations, interface consistency, and the automated test suite. These are agent-run checks, not claims that the student manually tested or listened to the fictional tracks. The student should run the project, inspect explanations, and revise the personal reflection to match their actual experience. No separate student chat sessions or manual review are claimed.
 
-**Prompts used:**
+## Design Choice
 
-<!-- Paste the key prompts you gave the agent -->
-
-**What did the agent generate or change?**
-
-<!-- List the files edited, code generated, or commands run -->
-
-**What did you verify or fix manually?**
-
-<!-- Describe anything the agent got wrong or that required human review -->
-
----
-
-## Design Pattern (SF10)
-
-> Document how AI helped you choose or implement a design pattern.
-
-**Which design pattern did you use?**
-
-<!-- e.g., Strategy, Factory, Observer, etc. -->
-
-**How did AI help you brainstorm or implement it?**
-
-<!-- Describe the conversation or suggestions that led to your decision -->
-
-**How does the pattern appear in your final code?**
-
-<!-- Point to the relevant class or method -->
+The existing Recommender class adapts Song and UserProfile objects to the functional scoring API. This avoids duplicated formulas. No additional design-pattern stretch credit is claimed.
